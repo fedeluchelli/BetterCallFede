@@ -1,19 +1,18 @@
-body {
-  /* background-color: #271d3b; */
+/* body {
   background: linear-gradient(045deg, #141f2f, #271d3b);
   margin: 0;
   padding: 0;
 }
+
+
 header {
   text-align: center;
   margin-top: 150px;
-  height: 100vh;
-  /* background: linear-gradient(045deg, #2ebf91 0%, #8360c3 35%, #271d3b 100%); */
+  height: auto;
 }
 .logo1 {
   height: 200px;
   width: 70%;
-  /* border: 2px solid #7c7c7c; */
   border: 2px solid rgb(110, 84, 18);
   margin: auto;
   border-right: none;
@@ -25,7 +24,6 @@ header {
 }
 
 .layerIMG {
-  /* margin-top: 40px; */
   height: 250px;
   margin-right: 50px;
 }
@@ -37,10 +35,8 @@ h1 {
   align-items: center;
 }
 
-/*NAVBAR*/
 
 .navBar {
-  /* background-color: #fd0202; */
   width: 100%;
   font-family: "Bebas Neue", sans-serif;
   font-size: 40px;
@@ -64,14 +60,14 @@ nav a:hover {
   color: black;
 }
 
-/* BODY */
+
 main {
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: auto;
 }
 .primerBody {
   width: 80%;
@@ -84,17 +80,14 @@ main {
   width: 600px;
   height: 500px;
 }
-
 .texto h2 {
   color: #ddd;
   font-size: 48px;
 }
-
 .texto p {
   color: #cccccc;
   font-size: 24px;
 }
-
 .yo {
   width: 440px;
   height: 500px;
@@ -107,4 +100,270 @@ footer {
   text-align: center;
   bottom: 0;
   width: 100%;
+}
+
+
+.header-Libros {
+  text-align: center;
+}
+.logo-Libros {
+  height: 50px;
+  width: 70%;
+  border-bottom: 2px solid rgb(110, 84, 18);
+  margin: auto;
+  margin-bottom: -20px;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+}
+.layerIMG-Libros {
+  height: 100px;
+  margin-right: 50px;
+  margin-bottom: -20px;
+}
+.titulo-Libros {
+  font-size: 50px;
+  margin-top: 80px;
+}
+.navBar-Libros {
+  width: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 50px;
+}
+ */
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+} */
+/*
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  min-height: 100%;
+}
+
+header {
+  color: white;
+  text-align: center;
+  width: auto;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.layerIMG {
+  max-width: 40%;
+  height: auto;
+}
+
+h1 {
+  margin: 10px 0 0;
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  font-family: "Newsreader", serif;
+  color: black;
+}
+
+.navBar {
+  width: 80%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.2rem;
+  background-color: #ff8900;
+  padding: 5px;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  display: block;
+  color: #7c7c7c;
+  text-align: center;
+  align-content: center;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+main {
+  text-align: center;
+  margin: 20px;
+}
+
+.primerBody {
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(88, 17, 88);
+}
+h2 {
+  color: white;
+  font-size: 2rem;
+
+  margin-top: -30px;
+}
+.texto {
+  max-width: 800px;
+  text-align: justify;
+  margin: 0 auto;
+  color: whitesmoke;
+  padding: 15px;
+}
+
+.yo {
+  max-width: 250px;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+}
+
+.logo1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.layerIMG {
+  width: 50px; /* ajusta el tamaño según tus necesidades */
+  height: auto;
+}
+
+h1 {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.primerBody {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px; /* ajusta el ancho según tus necesidades */
+  margin: 0 auto;
+}
+
+.texto {
+  display: flex;
+  background-image: url("./IMG/fondo12.jpg");
+  background-size: cover;
+  background-position: right;
+}
+
+.texto > div {
+  width: 70%;
+  padding: 10px; /* Añade espacio alrededor del contenido si es necesario */
+  box-sizing: border-box;
+}
+
+.texto > div.vacio {
+  width: 30%;
+}
+.button-contact {
+  background-color: #1e3b5a;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: black;
+  font-size: 2.5rem;
+  text-align: left;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.info img {
+  width: 15px; /* ajusta el tamaño según tus necesidades */
+  height: auto;
+}
+
+.info p {
+  margin: 10px;
+  font-size: 12px;
+}
+
+.azul {
+  background-color: darkblue;
+  width: 100%;
+  height: 250px;
+  color: white;
+}
+/* .azul {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.azul p {
+  width: 50%;
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #f2f2f2; /* color de fondo del pie de página */
+  padding: 10px;
+  text-align: center;
 }
