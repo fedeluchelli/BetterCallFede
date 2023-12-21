@@ -23,6 +23,7 @@ header {
 h1 {
   margin-left: 10px;
   font-size: 1rem;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .navBar {
@@ -44,6 +45,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: grey;
+  font-family: "Bebas Neue", sans-serif;
 }
 
 main {
@@ -70,25 +72,36 @@ main {
 }
 
 .texto > div {
-  /* width: 60%; */
-  padding: 10px;
+  padding: 20px;
   box-sizing: border-box;
 }
 
 .texto > div.vacio {
-  width: 50%;
+  width: 20%;
+  /* background-color: aqua; */
 }
 
-h2 {
+.texto h2 {
   color: black;
   font-size: 2.5rem;
   text-align: left;
+  margin-left: -25px;
+  font-family: "Josefin Sans", sans-serif;
+}
+.texto-libro h2 {
+  color: black;
+  font-size: 2rem;
+  text-align: left;
+  /* margin-left: -25px; */
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .info {
   display: flex;
   align-items: center;
   text-align: center;
+  font-family: "Josefin Sans", sans-serif;
+  margin-left: -15px;
 }
 
 .info img {
@@ -110,6 +123,7 @@ h2 {
   display: flex;
   flex-direction: column;
   padding: 15px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .azul h3 {
@@ -133,6 +147,7 @@ h2 {
   padding: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "Josefin Sans", sans-serif;
 }
 .gris h3 {
   margin-bottom: 5px;
