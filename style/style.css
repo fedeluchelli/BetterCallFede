@@ -243,22 +243,17 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
-  padding: 20px;
+  align-items: center;
+  padding: 10px;
 }
-
 .logo1 {
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
-.logo1 a {
-  text-decoration: none;
-  color: inherit;
-}
-
 .layerIMG {
-  width: 50px; /* ajusta el tamaño según tus necesidades */
+  width: 50px;
   height: auto;
 }
 
@@ -269,7 +264,7 @@ h1 {
 
 .navBar {
   display: flex;
-  align-items: center;
+  text-align: right;
 }
 
 nav ul {
@@ -280,7 +275,12 @@ nav ul {
 }
 
 nav li {
-  margin-right: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: grey;
 }
 
 main {
@@ -295,7 +295,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 800px; /* ajusta el ancho según tus necesidades */
+  max-width: 1000px; /* ajusta el ancho según tus necesidades */
   margin: 0 auto;
 }
 
@@ -307,21 +307,13 @@ main {
 }
 
 .texto > div {
-  width: 70%;
-  padding: 10px; /* Añade espacio alrededor del contenido si es necesario */
+  /* width: 60%; */
+  padding: 10px;
   box-sizing: border-box;
 }
 
 .texto > div.vacio {
-  width: 30%;
-}
-.button-contact {
-  background-color: #1e3b5a;
-  color: #ffffff;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  margin-bottom: 20px;
+  width: 50%;
 }
 
 h2 {
@@ -337,33 +329,59 @@ h2 {
 }
 
 .info img {
-  width: 15px; /* ajusta el tamaño según tus necesidades */
+  width: 15px;
   height: auto;
 }
 
 .info p {
   margin: 10px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .azul {
-  background-color: darkblue;
-  width: 100%;
+  background-color: rgb(12, 12, 90);
+  width: 350px;
   height: 250px;
   color: white;
-}
-/* .azul {
   display: flex;
-  flex-wrap: wrap;
-} */
+  flex-direction: column;
+  padding: 15px;
+}
 
+.azul h3 {
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
 .azul p {
-  width: 50%;
-  box-sizing: border-box;
+  align-self: flex-start;
+  margin-bottom: 5px;
+}
+
+.gris {
+  background-color: rgb(128, 127, 127);
+  width: 350px;
+  height: auto;
+  margin-left: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 15px;
+  margin-top: 10px;
+}
+.gris h3 {
+  margin-bottom: 5px;
 }
 
 footer {
-  background-color: #f2f2f2; /* color de fondo del pie de página */
+  background-color: #f2f2f2;
   padding: 10px;
   text-align: center;
+}
+
+.titulo-libro {
+  font-size: 25px;
+}
+.texto-libro img {
+  width: 200px;
 }
